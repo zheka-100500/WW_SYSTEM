@@ -15,9 +15,9 @@ namespace TestPlugin
         id = "zheka_100500.test.plugin",
         configPrefix = "TestPlugin",
         version = "1.0",
-        WWSYSTEMMajor = 1,
-        WWSYSTEMMinor = 0,
-        WWSYSTEMRevision = 0
+        WWSYSTEMMajor = 6,
+        WWSYSTEMMinor = 3,
+        WWSYSTEMRevision = 1
         )]
     public class TestPlugin : Plugin
     {
