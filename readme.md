@@ -1,2 +1,1 @@
-Я пока работаю над этим
-Наш дискорд: https://discord.gg/ckABHXN (ПОКА ЧТО ОСОБО НЕ НАСТРОИЛ)
+PLUGIN API FOR SCP:SL GAME.
