@@ -1,0 +1,19 @@
+D:\VISUAL PROJECTS\WW SYSTEM BOT\bin\x64\Release\netcoreapp3.1\WW SYSTEM BOT.exe
+D:\VISUAL PROJECTS\WW SYSTEM BOT\bin\x64\Release\netcoreapp3.1\WW SYSTEM BOT.deps.json
+D:\VISUAL PROJECTS\WW SYSTEM BOT\bin\x64\Release\netcoreapp3.1\WW SYSTEM BOT.runtimeconfig.json
+D:\VISUAL PROJECTS\WW SYSTEM BOT\bin\x64\Release\netcoreapp3.1\WW SYSTEM BOT.runtimeconfig.dev.json
+D:\VISUAL PROJECTS\WW SYSTEM BOT\bin\x64\Release\netcoreapp3.1\WW SYSTEM BOT.dll
+D:\VISUAL PROJECTS\WW SYSTEM BOT\bin\x64\Release\netcoreapp3.1\WW SYSTEM BOT.pdb
+D:\VISUAL PROJECTS\WW SYSTEM BOT\obj\x64\Release\netcoreapp3.1\WW SYSTEM BOT.csprojAssemblyReference.cache
+D:\VISUAL PROJECTS\WW SYSTEM BOT\obj\x64\Release\netcoreapp3.1\WW SYSTEM BOT.AssemblyInfoInputs.cache
+D:\VISUAL PROJECTS\WW SYSTEM BOT\obj\x64\Release\netcoreapp3.1\WW SYSTEM BOT.AssemblyInfo.cs
+D:\VISUAL PROJECTS\WW SYSTEM BOT\obj\x64\Release\netcoreapp3.1\WW SYSTEM BOT.dll
+D:\VISUAL PROJECTS\WW SYSTEM BOT\obj\x64\Release\netcoreapp3.1\WW SYSTEM BOT.pdb
+D:\VISUAL PROJECTS\WW SYSTEM BOT\obj\x64\Release\netcoreapp3.1\WW SYSTEM BOT.genruntimeconfig.cache
+D:\VISUAL PROJECTS\WW SYSTEM BOT\bin\x64\Release\netcoreapp3.1\DSharpPlus.dll
+D:\VISUAL PROJECTS\WW SYSTEM BOT\bin\x64\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\VISUAL PROJECTS\WW SYSTEM BOT\obj\x64\Release\netcoreapp3.1\WW SYSTEM BOT.csproj.CopyComplete
+D:\VISUAL PROJECTS\WW SYSTEM BOT\bin\x64\Release\netcoreapp3.1\DSharpPlus.CommandsNext.dll
+D:\VISUAL PROJECTS\WW SYSTEM BOT\bin\x64\Release\netcoreapp3.1\DSharpPlus.Interactivity.dll
+D:\VISUAL PROJECTS\WW SYSTEM BOT\bin\x64\Release\netcoreapp3.1\DSharpPlus.VoiceNext.dll
+D:\VISUAL PROJECTS\WW SYSTEM BOT\obj\x64\Release\netcoreapp3.1\WW SYSTEM BOT.csproj.CoreCompileInputs.cache
