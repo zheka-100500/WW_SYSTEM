@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WW_SYSTEM</RootNamespace>
+    <AssemblyName>WW_SYSTEM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp_publicized">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\Assembly-CSharp_publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandSystem.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\CommandSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Mirror">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\Mirror.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="NorthwoodLib">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\NorthwoodLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2020.0.1.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2020.0.1\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.CodeDom, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.CodeDom.6.0.0\lib\net461\System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AntiCheat\AntiCheat.cs" />
+    <Compile Include="AntiCheat\AntiCheatRule.cs" />
+    <Compile Include="API\AmmoType.cs" />
+    <Compile Include="API\AuthType.cs" />
+    <Compile Include="API\BroadcastType.cs" />
+    <Compile Include="API\CustomHealthStat.cs" />
+    <Compile Include="API\DamageType.cs" />
+    <Compile Include="Custom_Map\KillZone.cs" />
+    <Compile Include="Custom_Map\MapEditor.cs" />
+    <Compile Include="Custom_Map\SyncObjectComponent.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerListGetName.cs" />
+    <Compile Include="Events\EventGetListName.cs" />
+    <Compile Include="Extensions\ArrayExtensions.cs" />
+    <Compile Include="Extensions\ClassExtensions.cs" />
+    <Compile Include="API\CommandAttribute.cs" />
+    <Compile Include="API\CommandType.cs" />
+    <Compile Include="API\CustomNetwork.cs" />
+    <Compile Include="API\DisarmType.cs" />
+    <Compile Include="API\DOOR_PERMISSION_TYPE.cs" />
+    <Compile Include="API\EFFECT_TYPE.cs" />
+    <Compile Include="API\HitInfo.cs" />
+    <Compile Include="API\Connection.cs" />
+    <Compile Include="API\ExperienceType.cs" />
+    <Compile Include="API\GrenadeType.cs" />
+    <Compile Include="API\IntercomType.cs" />
+    <Compile Include="Extensions\DamageTypeExtensions.cs" />
+    <Compile Include="Extensions\ItemTypeExtensions.cs" />
+    <Compile Include="API\KnobSetting.cs" />
+    <Compile Include="API\LeadingTeam.cs" />
+    <Compile Include="API\LVLDATATYPE.cs" />
+    <Compile Include="API\LVLSETTYPE.cs" />
+    <Compile Include="API\methodof.cs" />
+    <Compile Include="API\MuteType.cs" />
+    <Compile Include="API\Player.cs" />
+    <Compile Include="API\PLAYER_PERMISSION.cs" />
+    <Compile Include="API\RaPanelStatus.cs" />
+    <Compile Include="API\REPORT_TYPE.cs" />
+    <Compile Include="API\WWRandom.cs" />
+    <Compile Include="Extensions\OtherExtensions.cs" />
+    <Compile Include="Extensions\RoleTypeExtensions.cs" />
+    <Compile Include="API\ROOM.cs" />
+    <Compile Include="API\RoomType.cs" />
+    <Compile Include="API\ROOM_DOOR.cs" />
+    <Compile Include="API\Round.cs" />
+    <Compile Include="API\ROUND_END_STATUS.cs" />
+    <Compile Include="API\TagEventType.cs" />
+    <Compile Include="API\TEAMTYPE.cs" />
+    <Compile Include="API\Time.cs" />
+    <Compile Include="Custom_Items\Items\CustomGrenade.cs" />
+    <Compile Include="Custom_Items\Items\CustomMedical.cs" />
+    <Compile Include="Custom_Items\Items\CustomWeapon.cs" />
+    <Compile Include="EventHandlers\IEventHandlerFragExplosion.cs" />
+    <Compile Include="EventHandlers\IEventHandlerSCPRequestAttack.cs" />
+    <Compile Include="EventHandlers\IEventHandlerSetRole.cs" />
+    <Compile Include="Events\GrenadeFragExplosionEvent.cs" />
+    <Compile Include="Events\PlayerSetRoleEvent.cs" />
+    <Compile Include="Events\SCPRequestAttackEvent.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Level_System\LevelProcessor.cs" />
+    <Compile Include="Level_System\Processors\LevelFileProcessor.cs" />
+    <Compile Include="Level_System\Processors\LevelPHPProcessor.cs" />
+    <Compile Include="Patches\CassieNotSayingUnitNamesFix.cs" />
+    <Compile Include="Patches\GrenadeFragExplosionEventPatch.cs" />
+    <Compile Include="Patches\PlayerSetRoleEventPatch.cs" />
+    <Compile Include="Patches\PlayerPickupItemEventPatch.cs" />
+    <Compile Include="Patches\PlayerThrowGrenadeEventPatch.cs" />
+    <Compile Include="Patches\RaPatches.cs" />
+    <Compile Include="Patches\SCPRequestAttackEventPatch.cs" />
+    <Compile Include="Patches\WaitingForPlayersPatch.cs" />
+    <Compile Include="Permissions\GroupPMData.cs" />
+    <Compile Include="Permissions\PermissionsManager.cs" />
+    <Compile Include="Permissions\PlayerPMData.cs" />
+    <Compile Include="Permissions\PMData.cs" />
+    <Compile Include="Security\ConnectionSecurity.cs" />
+    <Compile Include="Translation\Translate.cs" />
+    <Compile Include="Translation\TranslateData.cs" />
+    <Compile Include="Translation\Translator.cs" />
+    <Compile Include="API\Vector.cs" />
+    <Compile Include="Extensions\Vector3Extensions.cs" />
+    <Compile Include="Extensions\VectorExtensions.cs" />
+    <Compile Include="API\ZoneType.cs" />
+    <Compile Include="Attributes\PluginDetails.cs" />
+    <Compile Include="CommandShell.cs" />
+    <Compile Include="Config\ConfigOption.cs" />
+    <Compile Include="Config\ConfigType.cs" />
+    <Compile Include="Config\PluginConfig.cs" />
+    <Compile Include="Config\SettingType.cs" />
+    <Compile Include="Custom_Events\CustomEvent.cs" />
+    <Compile Include="Custom_Events\CustomEventManager.cs" />
+    <Compile Include="Custom_Items\CustomInventoryManager.cs" />
+    <Compile Include="Custom_Items\Items\CustomItem.cs" />
+    <Compile Include="Custom_Items\CustomItemManager.cs" />
+    <Compile Include="Custom_Items\CustomItemType.cs" />
+    <Compile Include="Discord\BOT\BotSender.cs" />
+    <Compile Include="Discord\BOT\BotStatus.cs" />
+    <Compile Include="Discord\BOT\DiscordBotMsg.cs" />
+    <Compile Include="Discord\BOT\DiscordRole.cs" />
+    <Compile Include="Discord\BOT\DiscordRequest.cs" />
+    <Compile Include="Discord\BOT\DiscordStatus.cs" />
+    <Compile Include="Discord\BOT\DiscordUser.cs" />
+    <Compile Include="Discord\BufferData.cs" />
+    <Compile Include="Discord\DiscordBot.cs" />
+    <Compile Include="Discord\DiscordBotMsgType.cs" />
+    <Compile Include="Discord\Embed.cs" />
+    <Compile Include="Discord\EmbedImage.cs" />
+    <Compile Include="Discord\Packet.cs" />
+    <Compile Include="Discord\StacksData.cs" />
+    <Compile Include="Discord\Webhook.cs" />
+    <Compile Include="Discord\EmbedField.cs" />
+    <Compile Include="Discord\WebhookManager.cs" />
+    <Compile Include="EventHandlers\IEventHandler.cs" />
+    <Compile Include="EventHandlers\IEventHandler079AddExp.cs" />
+    <Compile Include="EventHandlers\IEventHandler079CameraTeleport.cs" />
+    <Compile Include="EventHandlers\IEventHandler079Door.cs" />
+    <Compile Include="EventHandlers\IEventHandler079Elevator.cs" />
+    <Compile Include="EventHandlers\IEventHandler079ElevatorTeleport.cs" />
+    <Compile Include="EventHandlers\IEventHandler079LevelUp.cs" />
+    <Compile Include="EventHandlers\IEventHandler079Lock.cs" />
+    <Compile Include="EventHandlers\IEventHandler079Lockdown.cs" />
+    <Compile Include="EventHandlers\IEventHandler079StartSpeaker.cs" />
+    <Compile Include="EventHandlers\IEventHandler079StopSpeaker.cs" />
+    <Compile Include="EventHandlers\IEventHandler079TeslaGate.cs" />
+    <Compile Include="EventHandlers\IEventHandler079UnlockDoors.cs" />
+    <Compile Include="EventHandlers\IEventHandler106Teleport.cs" />
+    <Compile Include="EventHandlers\IEventHandlerAdminQuery.cs" />
+    <Compile Include="EventHandlers\IEventHandlerBan.cs" />
+    <Compile Include="EventHandlers\IEventHandlerBotRequest.cs" />
+    <Compile Include="EventHandlers\IEventHandlerCallCommand.cs" />
+    <Compile Include="EventHandlers\IEventHandlerCallConsoleCommand.cs" />
+    <Compile Include="EventHandlers\IEventHandlerCallShoot.cs" />
+    <Compile Include="EventHandlers\IEventHandlerCassieCustomAnnouncement.cs" />
+    <Compile Include="EventHandlers\IEventHandlerCassieTeamAnnouncement.cs" />
+    <Compile Include="EventHandlers\IEventHandlerCheckEscape.cs" />
+    <Compile Include="EventHandlers\IEventHandlerCheckRoundEnd.cs" />
+    <Compile Include="EventHandlers\IEventHandlerConnect.cs" />
+    <Compile Include="EventHandlers\IEventHandlerDisconnect.cs" />
+    <Compile Include="EventHandlers\IEventHandlerDoorAccess.cs" />
+    <Compile Include="EventHandlers\IEventHandlerElevatorUse.cs" />
+    <Compile Include="EventHandlers\IEventHandlerFixedUpdate.cs" />
+    <Compile Include="EventHandlers\IEventHandlerHandcuffed.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerMute.cs" />
+    <Compile Include="EventHandlers\IEventHandlerSCP914Upgrade.cs" />
+    <Compile Include="EventHandlers\IEventHandlerThrowGrenade.cs" />
+    <Compile Include="EventHandlers\IEventHandlerIntercom.cs" />
+    <Compile Include="EventHandlers\IEventHandlerIntercomCooldownCheck.cs" />
+    <Compile Include="EventHandlers\IEventHandlerLCZDecontaminate.cs" />
+    <Compile Include="EventHandlers\IEventHandlerLure.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPersonalBroadcast.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerChangeXP.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerCheckLimit.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerDie.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerDropAllItems.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerDropItem.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerHurt.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerJoin.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerLeave.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerLevelUp.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerPickupItem.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerReport.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerShowAndHideTag.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerTriggerTesla.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPlayerUseLocker.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPocketDimensionDie.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPocketDimensionEnter.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPocketDimensionExit.cs" />
+    <Compile Include="EventHandlers\IEventHandlerPreAuth.cs" />
+    <Compile Include="EventHandlers\IEventHandlerRecallZombie.cs" />
+    <Compile Include="EventHandlers\IEventHandlerReload.cs" />
+    <Compile Include="EventHandlers\IEventHandlerRoundEnd.cs" />
+    <Compile Include="EventHandlers\IEventHandlerRoundRestart.cs" />
+    <Compile Include="EventHandlers\IEventHandlerRoundStart.cs" />
+    <Compile Include="EventHandlers\IEventHandlerScp096CooldownEnd.cs" />
+    <Compile Include="EventHandlers\IEventHandlerScp096CooldownStart.cs" />
+    <Compile Include="EventHandlers\IEventHandlerScp096Enrage.cs" />
+    <Compile Include="EventHandlers\IEventHandlerScp096Panic.cs" />
+    <Compile Include="EventHandlers\IEventHandlerSCP914Activate.cs" />
+    <Compile Include="EventHandlers\IEventHandlerSCP914ChangeKnob.cs" />
+    <Compile Include="EventHandlers\IEventHandlerScpDeathAnnouncement.cs" />
+    <Compile Include="EventHandlers\IEventHandlerServerBroadcast.cs" />
+    <Compile Include="EventHandlers\IEventHandlerSetSeed.cs" />
+    <Compile Include="EventHandlers\IEventHandlerSetServerName.cs" />
+    <Compile Include="EventHandlers\IEventHandlerShoot.cs" />
+    <Compile Include="EventHandlers\IEventHandlerSpawn.cs" />
+    <Compile Include="EventHandlers\IEventHandlerSpawnRagdoll.cs" />
+    <Compile Include="EventHandlers\IEventHandlerTeamRespawn.cs" />
+    <Compile Include="EventHandlers\IEventHandlerUpdate.cs" />
+    <Compile Include="EventHandlers\IEventHandlerUsedMedicalItem.cs" />
+    <Compile Include="EventHandlers\IEventHandlerWaitingForPlayers.cs" />
+    <Compile Include="EventHandlers\IEventHandlerWarheadChangeLever.cs" />
+    <Compile Include="EventHandlers\IEventHandlerWarheadDetonate.cs" />
+    <Compile Include="EventHandlers\IEventHandlerWarheadStartCountdown.cs" />
+    <Compile Include="EventHandlers\IEventHandlerWarheadStopCountdown.cs" />
+    <Compile Include="Events\AdminQueryEvent.cs" />
+    <Compile Include="Events\BanEvent.cs" />
+    <Compile Include="Events\BotRequestEvent.cs" />
+    <Compile Include="Events\CassieCustomAnnouncementEvent.cs" />
+    <Compile Include="Events\CassieTeamAnnouncementEvent.cs" />
+    <Compile Include="Events\CheckRoundEndEvent.cs" />
+    <Compile Include="Events\ConnectEvent.cs" />
+    <Compile Include="Events\ConnectionEvent.cs" />
+    <Compile Include="Events\DisconnectEvent.cs" />
+    <Compile Include="Events\Event.cs" />
+    <Compile Include="Events\EventHandlerWrapper.cs" />
+    <Compile Include="Events\EventManager.cs" />
+    <Compile Include="Events\FixedUpdateEvent.cs" />
+    <Compile Include="Events\LCZDecontaminateEvent.cs" />
+    <Compile Include="Events\PersonalBroadcastEvent.cs" />
+    <Compile Include="Events\Player079AddExpEvent.cs" />
+    <Compile Include="Events\Player079CameraTeleportEvent.cs" />
+    <Compile Include="Events\Player079DoorEvent.cs" />
+    <Compile Include="Events\Player079ElevatorEvent.cs" />
+    <Compile Include="Events\Player079ElevatorTeleportEvent.cs" />
+    <Compile Include="Events\Player079LevelUpEvent.cs" />
+    <Compile Include="Events\Player079LockdownEvent.cs" />
+    <Compile Include="Events\Player079LockEvent.cs" />
+    <Compile Include="Events\Player079StartSpeakerEvent.cs" />
+    <Compile Include="Events\Player079StopSpeakerEvent.cs" />
+    <Compile Include="Events\Player079TeslaGateEvent.cs" />
+    <Compile Include="Events\Player079UnlockDoorsEvent.cs" />
+    <Compile Include="Events\Player106TeleportEvent.cs" />
+    <Compile Include="Events\PlayerCallCommandEvent.cs" />
+    <Compile Include="Events\PlayerCallShootEvent.cs" />
+    <Compile Include="Events\PlayerChangeXPEvent.cs" />
+    <Compile Include="Events\PlayerCheckEscapeEvent.cs" />
+    <Compile Include="Events\PlayerCheckLimitEvent.cs" />
+    <Compile Include="Events\PlayerDeathEvent.cs" />
+    <Compile Include="Events\PlayerDoorAccessEvent.cs" />
+    <Compile Include="Events\PlayerDropAllItemsEvent.cs" />
+    <Compile Include="Events\PlayerDropItemEvent.cs" />
+    <Compile Include="Events\PlayerElevatorUseEvent.cs" />
+    <Compile Include="Events\PlayerEvent.cs" />
+    <Compile Include="Events\PlayerHandcuffedEvent.cs" />
+    <Compile Include="Events\PlayerHurtEvent.cs" />
+    <Compile Include="Events\PlayerIntercomCooldownCheckEvent.cs" />
+    <Compile Include="Events\PlayerIntercomEvent.cs" />
+    <Compile Include="Events\PlayerItemEvent.cs" />
+    <Compile Include="Events\PlayerJoinEvent.cs" />
+    <Compile Include="Events\PlayerLeaveEvent.cs" />
+    <Compile Include="Events\PlayerLevelUpEvent.cs" />
+    <Compile Include="Events\PlayerLureEvent.cs" />
+    <Compile Include="Events\PlayerMuteEvent.cs" />
+    <Compile Include="Events\PlayerReportEvent.cs" />
+    <Compile Include="Events\PlayerShowAmdHideTagEvent.cs" />
+    <Compile Include="Events\PlayerThrowGrenadeEvent.cs" />
+    <Compile Include="Events\PlayerUsedMedicalItemEvent.cs" />
+    <Compile Include="Events\PlayerUseLockerEvent.cs" />
+    <Compile Include="Events\PreAuthEvent.cs" />
+    <Compile Include="Events\SCP914UpgradeEvent.cs" />
+    <Compile Include="Events\ServerBroadcastEvent.cs" />
+    <Compile Include="Events\ServerConsoleCommandEvent.cs" />
+    <Compile Include="Events\TeamRespawnEvent.cs" />
+    <Compile Include="Events\UpdateEvent.cs" />
+    <Compile Include="Events\PlayerPickupItemEvent.cs" />
+    <Compile Include="Events\PlayerPocketDimensionDieEvent.cs" />
+    <Compile Include="Events\PlayerPocketDimensionEnterEvent.cs" />
+    <Compile Include="Events\PlayerPocketDimensionExitEvent.cs" />
+    <Compile Include="Events\PlayerRecallZombieEvent.cs" />
+    <Compile Include="Events\PlayerReloadEvent.cs" />
+    <Compile Include="Events\PlayerSCP914ChangeKnobEvent.cs" />
+    <Compile Include="Events\PlayerShootEvent.cs" />
+    <Compile Include="Events\PlayerSpawnEvent.cs" />
+    <Compile Include="Events\PlayerSpawnRagdollEvent.cs" />
+    <Compile Include="Events\PlayerTriggerTeslaEvent.cs" />
+    <Compile Include="Events\Priority.cs" />
+    <Compile Include="Events\RoundEndEvent.cs" />
+    <Compile Include="Events\RoundRestartEvent.cs" />
+    <Compile Include="Events\RoundStartEvent.cs" />
+    <Compile Include="Events\Scp096CooldownEndEvent.cs" />
+    <Compile Include="Events\Scp096CooldownStartEvent.cs" />
+    <Compile Include="Events\Scp096EnrageEvent.cs" />
+    <Compile Include="Events\Scp096PanicEvent.cs" />
+    <Compile Include="Events\SCP914ActivateEvent.cs" />
+    <Compile Include="Events\ScpDeathAnnouncementEvent.cs" />
+    <Compile Include="Events\SetSeedEvent.cs" />
+    <Compile Include="Events\SetServerNameEvent.cs" />
+    <Compile Include="Events\WaitingForPlayersEvent.cs" />
+    <Compile Include="Events\WarheadChangeLeverEvent.cs" />
+    <Compile Include="Events\WarheadDetonateEvent.cs" />
+    <Compile Include="Events\WarheadEvent.cs" />
+    <Compile Include="Events\WarheadStartEvent.cs" />
+    <Compile Include="Events\WarheadStopEvent.cs" />
+    <Compile Include="Events\WFP.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="IConfigFile.cs" />
+    <Compile Include="Level_System\LevelManager.cs" />
+    <Compile Include="Level_System\PlayerLevel.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="MainLoader.cs" />
+    <Compile Include="Patches\AcPatches.cs" />
+    <Compile Include="Patches\AdminQueryEventPatch.cs" />
+    <Compile Include="Patches\BanEventPatch.cs" />
+    <Compile Include="Patches\CassieTeamAnnouncementEventPatch.cs" />
+    <Compile Include="Patches\CheckRoundEndEventPatch.cs" />
+    <Compile Include="Patches\CustomItemModifyPatch.cs" />
+    <Compile Include="Patches\CustomPickupPatch.cs" />
+    <Compile Include="Patches\FixedUpdateEventPatch.cs" />
+    <Compile Include="Patches\GeneratorUseEventPatch.cs" />
+    <Compile Include="Patches\GhostModePatch.cs" />
+    <Compile Include="Patches\ItemLimitsPatch.cs" />
+    <Compile Include="Patches\LCZDecontaminateEventPatch.cs" />
+    <Compile Include="Patches\lolpatch.cs" />
+    <Compile Include="Patches\MiscPatches.cs" />
+    <Compile Include="Patches\PersonalBroadcastEventPatch.cs" />
+    <Compile Include="Patches\Player106TeleportEventPatch.cs" />
+    <Compile Include="Patches\PlayerCallCommandEventPatch.cs" />
+    <Compile Include="Patches\PlayerCheckEscapeEventPatch.cs" />
+    <Compile Include="Patches\PlayerDeathAndHurtEventPatch.cs" />
+    <Compile Include="Patches\PlayerDoorAccessEventPatch.cs" />
+    <Compile Include="Patches\PlayerDropAllItemsEventPatch.cs" />
+    <Compile Include="Patches\PlayerDropItemEventPatch.cs" />
+    <Compile Include="Patches\PlayerElevatorUseEventPatch.cs" />
+    <Compile Include="Patches\PlayerHandcuffedEventPatch.cs" />
+    <Compile Include="Patches\PlayerIntercomCooldownCheckEventPatch.cs" />
+    <Compile Include="Patches\PlayerJoinEventPatch.cs" />
+    <Compile Include="Patches\PlayerLeaveEventPatch.cs" />
+    <Compile Include="Patches\PlayerMuteEventPatch.cs" />
+    <Compile Include="Patches\PlayerPocketDimensionDieEventPatch.cs" />
+    <Compile Include="Patches\PlayerPocketDimensionEnterEventPatch.cs" />
+    <Compile Include="Patches\PlayerRecallZombieEventPatch.cs" />
+    <Compile Include="Patches\PlayerReloadEventPatch.cs" />
+    <Compile Include="Patches\PlayerReportEventPatch.cs" />
+    <Compile Include="Patches\PlayerSCP914ChangeKnobEventPatch.cs" />
+    <Compile Include="Patches\PlayerShootEventPatch.cs" />
+    <Compile Include="Patches\PlayerShowAmdHideTagEventPatch.cs" />
+    <Compile Include="Patches\PlayerSpawnEventPatch.cs" />
+    <Compile Include="Patches\PlayerSpawnRagdollEventPatch.cs" />
+    <Compile Include="Patches\PlayerTriggerTeslaEventPatch.cs" />
+    <Compile Include="Patches\PlayerUsedMedicalItemPatch.cs" />
+    <Compile Include="Patches\PlayerUseLockerEventPatch.cs" />
+    <Compile Include="Patches\RoundRestartEventPatch.cs" />
+    <Compile Include="Patches\RoundStartEventPatch.cs" />
+    <Compile Include="Patches\SCP079EventsPatch.cs" />
+    <Compile Include="Patches\Scp173BeingLooked.cs" />
+    <Compile Include="Patches\SCP914ActivateEventpatch.cs" />
+    <Compile Include="Patches\SCP914UpgradeEventPatch.cs" />
+    <Compile Include="Patches\ScpDeathAnnouncementEventPatch.cs" />
+    <Compile Include="Patches\ServerBroadcastEventPatch.cs" />
+    <Compile Include="Patches\ServerConsoleCommandEventPatch.cs" />
+    <Compile Include="Patches\ServerRolesPatch.cs" />
+    <Compile Include="Patches\SetSeedEventPatch.cs" />
+    <Compile Include="Patches\SetServerNameEventPatch.cs" />
+    <Compile Include="Patches\TeamRespawnEventPatch.cs" />
+    <Compile Include="Patches\UpdateEventPatch.cs" />
+    <Compile Include="Patches\UseMedicalEventPatch.cs" />
+    <Compile Include="Patches\WarheadChangeLeverEventPatch.cs" />
+    <Compile Include="Patches\WarheadDetonateEventPatch.cs" />
+    <Compile Include="Patches\WarheadStartEventPatch.cs" />
+    <Compile Include="Patches\WarheadStopEventPatch.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="PluginManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchFlags.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="Triggers\Trigger.cs" />
+    <Compile Include="Triggers\Trigger_Manager.cs" />
+    <Compile Include="UpdateSystem\PluginUpdate.cs" />
+    <Compile Include="UpdateSystem\WW_UPDATE.cs" />
+    <Compile Include="Utils\LogsArchiver.cs" />
+    <Compile Include="Utils\PlayerInfo.cs" />
+    <Compile Include="VanillaFixes\VanillaCommand.cs" />
+    <Compile Include="VanillaFixes\VanillaCommands.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Audio\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "D:\VISUAL PROJECTS\WW_SYSTEM MAIN\WW_SYSTEM\WW_SYSTEM\bin\Debug\WW_SYSTEM.dll" "C:\Users\zheka\OneDrive\Desktop\Managed WW SYSTEM NEW BETA\WW_SYSTEM.dll" /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

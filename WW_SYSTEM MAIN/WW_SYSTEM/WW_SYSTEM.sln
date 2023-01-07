@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WW_SYSTEM", "WW_SYSTEM\WW_SYSTEM.csproj", "{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Debug|Any CPU.Build.0 = Debug|x64
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Debug|x64.ActiveCfg = Debug|x64
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Debug|x64.Build.0 = Debug|x64
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Release|Any CPU.ActiveCfg = Release|x64
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Release|Any CPU.Build.0 = Release|x64
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Release|Mixed Platforms.Build.0 = Release|x64
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Release|x64.ActiveCfg = Release|x64
+		{9D9ED533-9E9C-4B73-AA53-4911D0FEC510}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2703377-DB23-4A84-BF4D-8B41B7E4F271}
+	EndGlobalSection
+EndGlobal
